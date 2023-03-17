@@ -5,5 +5,5 @@
 예시) Kotlin In Action -> 1-1 -> Leehyeonbin
 
 ## Branch
-Study 에서 사용하는 Branch는 책이름/챕터_이름 으로 입력합니다. 또한 책 이름은 UpperCamelCase로 작성합니다.
+Study 에서 사용하는 Branch는 책이름/챕터_이름 으로 입력합니다. 또한 책 이름은 UpperCamelCase로 작성합니다.<br>
 예시) KotlinInAction/1-1_Leehyeonbin
