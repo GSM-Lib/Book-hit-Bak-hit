@@ -21,7 +21,7 @@ public class Person{
 
 코틀린으로 위 코드를 작성한다면
 ```kotlin
-class Person(val name)
+class Person(val name: String)
 ```
 
 위 코드처럼 매우 간결하게 작성할 수 있습니다.
@@ -50,7 +50,7 @@ val로 선언한 프로퍼티는 읽기 전용이며, var로 선언한 프로퍼
 
 코틀린에서 만약
 ```kotlin
-class Person(val name: String, val isFat: String)
+class Person(val name: String, val isFat: Boolean)
 ```
 
 라는 식으로 클래스를 생성한다면,
