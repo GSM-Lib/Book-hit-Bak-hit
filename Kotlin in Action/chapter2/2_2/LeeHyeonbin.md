@@ -50,7 +50,7 @@ val로 선언한 프로퍼티는 읽기 전용이며, var로 선언한 프로퍼
 
 코틀린에서 만약
 ```kotlin
-class Person(val name: String, val isFat)
+class Person(val name: String, val isFat: String)
 ```
 
 라는 식으로 클래스를 생성한다면,
@@ -81,6 +81,7 @@ val person = Person("김현승", true)
 println(person.name)
 // 김현승
 println(person.isFat)
+// true
 ```
 코틀린에서는 프로퍼티를 직접 사용한 듯 하지만, 
 코틀린이 자동으로 게터를 호출해줍니다.
