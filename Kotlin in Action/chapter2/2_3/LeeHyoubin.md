@@ -70,7 +70,7 @@ fun getMnemonic(color: Color) {
         Color.VIOLET -> "Vain"
     }
 }
-if(getMnemonic(Color.BLUE))
+print(getMnemonic(Color.BLUE))
 // Battle
 ```
 
@@ -85,7 +85,7 @@ fun getMnemonic(color: Color) {
         Color.BLUE, Color.INDIGO, Color.VIOLET -> "cold"
     }
 }
-if(getMnemonic(Color.BLUE))
+print(getMnemonic(Color.BLUE))
 // Battle
 ```
 
