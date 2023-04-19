@@ -149,7 +149,7 @@ letter에는 키가 들어가고, binary에는 2진 표현이 들어갑니다.
 
 위처럼 사용하늡 방법을 구조 분해 문법이라 하고, 위처럼 사용할 수 있지만 나중에 더 자세히 다루겠습니다.
 
-코틀린에선느 get과 put을 이용하여 값을 사용하는 대신에 map[key]나 map[key] = value 와 같이 간단하게 설정하고 가져올 수 있습니다.
+코틀린에서는 get과 put을 이용하여 값을 사용하는 대신에 map[key]나 map[key] = value 와 같이 간단하게 설정하고 가져올 수 있습니다.
 이를 출력하면
 > A = 1000001<br>
 B = 1000010<br>
@@ -187,7 +187,7 @@ in 연산자를 이용하면 어떤 값이 해당 범위에 속하는지 알 수
 fun isLetter(c: Char) = c in 'a'..'z' || c in 'A'..'Z'
 fun isNotDigit(c: Char) = c !in '0'..'9'
 
-println(isLetter'q')
+println(isLetter('q'))
 // true
 println(isNotDigit('x'))
 // false
